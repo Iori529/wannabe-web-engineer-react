@@ -8,6 +8,7 @@ const Counter = () => {
       <h1>カウンター</h1>
       <div>回数: {count}</div>
       <button onClick={() => setCount((count) => count + 1)}>クリック！</button>
+      <button onClick={() => setCount((count) => 0)}>リセット！</button>
     </div>
   );
 };
